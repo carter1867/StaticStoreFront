@@ -1,0 +1,78 @@
+body {
+    background: url(img/gradient.jpg);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    border:5px solid black  ;
+    padding: 0;
+    margin: 0;
+    background: url(img/nintendo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    padding: 1em 1em 1em ;
+    margin: 1em 0;
+    font-size: 1.3em;
+
+}
+
+nav#loginmenu{
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+
+}
+
+nav li{
+    display: inline-block;
+}
+
+.Wrapper {
+    margin-left: 800px;
+    max-width: 1080px;
+    padding: 0 2.5em;
+}
+
+section#sidebar{
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: red solid 5px;
+}
+
+.Panel{
+    justify-content: space-between;
+    max-width: 400px;
+}
+
+
+section#main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 500px;
+    max-width: 900px;
+}
+
+.gamingheader{
+    text-align: center;
+}
+
+footer{
+    border: 3px solid black;
+}
+
+footer li{
+    display: inline-block;
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+}
